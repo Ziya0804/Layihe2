@@ -1,0 +1,534 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.baslig{
+    background-color: #2c3e50;
+    width: 100%;
+    height: 104px;
+}
+.orta {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    height: 104px;
+}
+#left {
+    width: 30%;
+    height: 70px;
+    background-color: #2c3e50;
+    margin-top: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#left a{
+    color:white;
+    text-decoration: none;
+    display: block;
+}
+
+    
+.right{
+width: 70%;
+height: 70px;
+background-color:#2c3e50 ;
+margin-top: 20px;
+margin-left: 150px;
+
+}
+.right ul li a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    padding: 12px;
+       
+}
+.right ul {
+    text-align: end;
+    padding-top: 23px;
+}
+.right ul li a:hover{
+    color: #1abc9c;
+    transition: 0.5s;
+}
+.sexs{
+    background-color: #1abc9c;
+    width: 100%;
+    height: 100vh;
+}
+.sexsimelumat {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    
+}
+.sexsimelumat img{
+    
+    margin-top: 35px;
+}
+.sexsimelumat p{
+    margin-top: 30px;
+    color: white;
+    font-size: 64px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.xett{
+    
+    width: 100%;
+    margin-top: -30px;
+   display: flex;
+   justify-content: center; 
+}
+.xettdiv{
+    width: 60%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;   
+    box-sizing: border-box  ;  
+}
+.xett1{
+    background-color: white;
+    width: 20%;
+    height: 4px;
+    border-radius:3px ;
+    
+}
+.xett2{
+    background-color: white;
+    width: 20%;
+    height: 4px;
+    border-radius: 3px;
+    display:inline-block ;
+}
+.xettdiv i{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.yazi p{
+    width: 70%;
+    margin-left: 15%;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 80px;
+}
+.umumisekiller{
+    background-color: white;
+    width: 100%;
+    
+
+}
+.umumisekiller_orta{
+    width: 80%;
+    margin-left: 10%;
+}
+.umumisekiller p {
+    text-align: center;
+    color: #2c3e50;
+    padding-top: 70px;
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.ikincixett{
+    
+    width: 100%;
+    height: 80px;
+}
+.ikincixettdiv{
+    
+    width: 50%;
+    margin-left: 25%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.ikincixett1{
+    background-color: #2c3e50;
+    width: 20%;
+    height: 4px;
+    border-radius:3px ;
+}
+.ikincixett2{
+background-color: #2c3e50;
+width: 20%;
+height: 4px;
+border-radius: 3px;
+}
+.ikincixett i{
+    color: #2c3e50;
+    font-size: 35px;
+    padding: 17px;
+    
+}
+.sekil1 a img{
+    width:300px ;
+    height:200px;
+    margin-left: 100px;
+    margin: 17px;
+    border-radius: 8px;
+    
+}
+
+.About{
+    width: 100%;
+    background-color: #1abc9c;
+}
+.About_orta{
+    width: 70%;
+    margin-left: 15%;
+    height: 500px;
+    text-align: center;
+}
+.About_orta h2{
+    color: #FFFFFF;
+  padding-top: 50px;
+    font-size: 50px;
+    font-weight: 650;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ucuncuxett{
+    width: 100%;
+    
+    height: 100px;
+    display: block;
+    
+}
+.ucuncuxettdiv{
+    
+    width: 50%;
+    margin-left: 25%;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+}
+.ucuncuxett1{
+    background-color: white;
+    width: 30%;
+    height: 4px;
+    border-radius:3px ;
+    margin-top: 30px;
+    
+}
+.ucuncuxett2{
+background-color: white;
+width: 30%;
+margin-top: 30px;
+height: 4px;
+border-radius: 3px;
+}
+.ucuncuxett i{
+    color: white;
+    font-size: 35px;
+    padding: 17px;
+}
+.melumat{
+    width: 100%;
+    
+    display: flex;
+}
+.melumat1{
+    width: 50%;
+       
+}
+.melumat1 p{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+   text-align: start;
+   line-height: 33px; 
+}
+.melumat2{
+  
+    width: 50%;
+}
+.melumat2 p{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    text-align: start;
+    line-height: 33px;
+    
+}
+.About_orta button {
+    width: 250px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #1abc9c;
+    color: #FFFFFF;
+    border: 2px solid white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.About_orta button:hover{
+    background-color: white;
+    color: black;
+}
+.contact{
+    width: 100%;
+    height: 500px;
+
+}
+.contact_orta{
+    width: 70%;
+    margin-left: 15%;
+    height: 500px;
+    
+}
+.contact_orta h3{
+    color: #2c3e50;
+  padding-top: 50px;
+    font-size: 42px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+.dorduncuxett{
+    width: 100%;
+    
+    height: 100px;
+    display: block;
+    
+}
+.dorduncuxettdiv{
+    
+    width: 50%;
+    margin-left: 25%;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+}
+.dorduncuxett1{
+    background-color: #2c3e50;
+    width: 19%;
+    height: 4px;
+    border-radius:3px ;
+    margin-top: 30px;
+    
+}
+.dorduncuxett2{
+background-color: #2c3e50;
+width: 19%;
+margin-top: 30px;
+height: 4px;
+border-radius: 3px;
+}
+.dorduncuxett i{
+    color: #2c3e50;
+    font-size: 25px;
+    padding: 17px;
+}
+.form{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.form form {
+    text-align: start;
+    height: 460px;
+}
+
+.form form .fullname {
+    border: none;
+    border-bottom: 1px solid gray  ;
+    height: 40px;
+    line-height: 100%;
+    width: 90%;
+    outline: none;
+    margin-left: 5%;
+}
+.form form .fullname:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+
+
+.form form .email {
+    border: none;
+    border-bottom: 1px solid gray  ;
+    height: 40px;
+    line-height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    outline: none;
+}
+
+.form form .email:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+.form form .phone {
+    border: none;
+    border-bottom: 1px solid gray ;
+    height: 40px;
+    line-height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    outline: none;
+}
+.form form .phone:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+.form form .message{
+    border: none;
+    border-bottom: 1px solid gray  ;
+    height: 90px;
+    line-height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    outline: none;
+    
+}
+.form form .message:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+.form form .send{
+    margin-left: 5%;
+    width: 78px;
+    height: 50px;
+    background-color: #1abc9c;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 12px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.elaqe{
+    width: 100%;
+    height: 300px;
+    background-color: #2c3e50;
+    margin-top: 140px;
+    align-items: center;
+
+    display: flex;
+}
+.elaqeorta{
+    width: 80%;
+    margin-left: 10%;
+    height: 160px;
+    display: flex;
+}
+.location{
+    width: 24%;
+    height: 160px;
+
+}   
+.web{
+    width: 38%;
+    height: 160px;
+}
+.about_freelancer{
+    width: 38%;
+    text-align: center;
+    height: 160px;
+}
+.location h4{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.location p{
+    padding-left: 18px;
+    width: 220px;
+    text-align: center;
+    padding-top: 20px;
+    color: #FFFFFF;
+    font-size:22px ;
+    font-weight: 450;
+    line-height: 28px;
+}
+.web  h3{
+    padding-top:15px ;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.web div{
+    width: 50px;
+    height: 50px;
+    border-radius:50px ;
+    border: 2px solid white;
+    margin: 3px;
+    margin-top: 20px;
+    background-color: #2c3e50;
+    
+}
+.web{
+    text-align: center;
+}
+
+.web  i{
+    color: white;
+ 
+    font-size: 20px;
+    margin-top: 12px;
+
+
+}
+
+
+.web div:hover {
+    background-color: #FFFFFF;
+}
+.web div:hover i{
+    color: #2c3e50;
+}
+.about_freelancer h3{
+    padding-top:15px ;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;   
+}
+.about_freelancer span{
+    padding-left: 48px;
+    width: 200px;
+    color: #FFFFFF;
+    font-size:22px ;
+    font-weight: 450;
+    padding: 20px;
+    line-height: 32px;
+    
+    
+}
+.about_freelancer a{
+    color: #1abc9c;
+    width: 150px;
+    font-size:22px ;
+    font-weight: 450;
+          
+
+}
+.son{
+    width: 100%;
+    height: 75px;
+    background-color: #1a252f;
+}
+.son p{
+    text-align: center;
+    padding-top: 30px;
+    color: #FFFFFF;
+}
